@@ -1,0 +1,184 @@
+body
+{
+	height: 3000px;
+}
+
+/* start header*/
+header
+{
+	background: url(image/web.png) fixed no-repeat;
+		background-size: cover;
+	width: 100%;
+ height: 20%;
+}
+
+nav
+{
+	background-color: #252f31;
+	width: 100%;
+	height: 13%;
+	position: fixed;
+	top:0px;
+
+}
+nav h2
+{
+	color:deeppink;
+	font-family: 'Fjalla One', sans-serif;
+    margin-left: 5%;
+	font-size: 30px;
+}
+nav  ul
+{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: -5%;
+	margin-left: 20%;
+}
+nav ul li
+{
+	float: left;
+	padding:10px;
+	margin-left:15%;
+	font-size: 30px;
+font-family: 'Lobster', cursive;
+}
+nav ul li a
+{
+	text-decoration: none;
+	color:#fff;
+}
+nav ul li a:hover
+{
+	color:deeppink;
+}
+ article h1
+{
+	font-family:'Pacifico', cursive;
+	font-size:90px;
+	color:deeppink;
+	padding-top: 10%;
+	margin-left: 25%;
+	
+
+}
+/* end header*/
+
+/*Start About us*/
+#about
+{ background-image: url(image/bp_background_2_blue1.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width:100%;
+	height: 20%;
+	margin-top:-1.5%;
+	padding-top: 11%;
+	padding-left: 30%;
+}
+#about .us
+{
+	width: 40%;
+	height:70%;
+ top:10%;
+	background-color: #fff;
+	padding-top: 3%;
+}
+
+.us h1
+{
+	font-family: 'Sedgwick Ave', cursive;
+font-size: 20px;
+	text-align: center;
+}
+.phara p
+{
+	text-align: center;
+	font-family: 'Courgette', cursive;
+font-size: 15px;
+}
+/* End About us*/
+
+/*Start member*/
+#member
+{
+	padding-top: 7%;
+}
+#member h1
+{
+    font-family: 'Boogaloo', cursive;
+    font-size:70px;
+	color:deeppink;
+	text-align: center;
+}
+#member .item1 img, .item2 img, .item3 img, .item4 img
+{
+	width: 15%;
+	height: 7%;
+	border: 3px solid deeppink;
+	margin-left: 10%;
+}
+.item1 .it1, .item3 .it3
+{
+	float:right;
+	margin-right: 10%;
+}
+.item1 .it1 h2, .it2 h2, .it3 h2, .it4 h2
+{
+	color:#252f31;
+	font-size: 40px;
+	font-family: 'Amaranth', sans-serif;
+}
+ .item1 .it1 p, .it2 p, .it3 p, .it4 p
+{
+	font-family: 'Yellowtail', cursive;
+	font-size: 25px;
+}
+.item2 .it2, .item4 .it4
+{
+	float:left;
+	margin-left: 10%;
+}
+.item4 img
+{
+	float: right;
+	margin-right: 10%;
+}
+.item4 .it4 
+{
+	margin-left:10%;
+}
+
+
+/*End member*/
+
+/*start PRoduct*/
+/*#product
+{
+	width: 100%;
+	height: 40%;
+		background-color: #DDD;
+
+}
+#product .our
+{ margin-top: 25%;
+}
+#product .our h1
+{
+margin-left: 30%;
+
+}
+#product .our p
+{text-align: center;
+	margin-top: -4%;
+		font-family:'Pacifico', cursive;
+
+}
+
+.pro1 #myImg
+{
+	width: 35%;
+	height: 60%;
+}
+*/
+/*end product*/
